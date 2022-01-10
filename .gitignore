@@ -1,7 +1,19 @@
 *.class
 *.log
-# Ignore IDE artifacts
-.vscode
-.metals
+
+
+# bloop and metals
 .bloop
-out
+.bsp
+
+# metals
+project/metals.sbt
+.metals
+
+# vs code
+.vscode
+
+# sbt
+project/project/
+project/target/
+target/
